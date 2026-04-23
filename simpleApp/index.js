@@ -3,7 +3,7 @@ const app = express();
 
 // Configuration
 const PORT = 3000;
-const VERSION = "1.0.0";
+const VERSION = process.env.APP_VERSION || "1.0.0";
 
 // Middleware simple de log
 app.use((req, res, next) => {
