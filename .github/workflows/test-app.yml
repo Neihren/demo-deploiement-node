@@ -31,4 +31,4 @@ jobs:
       working-directory: ./simpleApp
       run: npm test
       env:
-        APP_VERSION: ${{ secrets.APP_VERSION }}
+        MY_APP_VERSION: ${{ secrets.APP_VERSION }}
