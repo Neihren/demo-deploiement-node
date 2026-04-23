@@ -10,15 +10,9 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-<<<<<<< HEAD
-    # default:
-    #   run:
-    #     working-directory: ./simpleApp
-=======
     #defaults:
     #  run:
     #    working-directory: ./simpleApp
->>>>>>> b497bd4 (Update test-app.yml)
 
     steps:
     - name: Récupérer le code
